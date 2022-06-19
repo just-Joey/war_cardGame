@@ -3,32 +3,34 @@
      box-sizing: border-box;
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+html {
+     font-family: 'Cinzel', serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+.container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+
+button {
+     width: 150px;
+     height: 50px;
+     margin: 0 auto
+}
+
+
 
 
 /******************************************
